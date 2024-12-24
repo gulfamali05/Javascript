@@ -1,2 +1,3 @@
 # Javascript
-lab task
+Practice Questions
+
