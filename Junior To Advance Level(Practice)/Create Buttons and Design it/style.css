@@ -1,0 +1,14 @@
+.class-button{
+  color: rgba(9, 135, 17, 0.904);
+}
+.btn1{
+  background-color: lightgreen;
+  border: none;
+  padding: 2vh 3vw;
+  border-radius: 10px;
+}
+.btn2{
+  padding: 1.5vh 6vw;
+  border: 2px solid black;
+  border-radius: 10px;
+}

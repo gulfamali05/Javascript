@@ -1,0 +1,15 @@
+.class-button{
+  color: rgba(9, 135, 17, 0.904);
+}
+.bag-button{
+  background-color: lightgreen;
+  border: none;
+  padding: 2vh 8vw;
+  border-radius: 10px;
+}
+.wish-button{
+  padding: 1.5vh 20vw;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
