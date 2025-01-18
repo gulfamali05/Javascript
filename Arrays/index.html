@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+//     let marks = [97, 84, 90, 74, 64, 89, 76];
+//     let sum = 0;
+//   for (const element of marks) {
+//      sum += element;
+//     }
+//     let average = sum/marks.length;
+//     console.log(`Avg Marks of Class = ${average}`);
+ 
+    
+  
+// let cities = ['FSD', 'LHR', 'ISB', 'KCH'];
+// for (let element of cities) {
+//       console.log(element);
+      
+//     }
+
+
+    let prices = [250, 645, 300, 900, 50];
+    // Calculate Average with for of() loop  
+    // let off = 1;
+    // let count = 0;
+    // for (const element of prices) {
+    //   off =element-(element*(10/100));
+    //   console.log(`Before off value at index ${count} is = ${element}: After 10% off value at index ${count} is = ${off}`);
+    //   count++;
+    // }
+    // Calculate Average with for() loop  
+    let idx = 0;
+    for(let i=0; i<prices.length; i++){
+      let off = prices[i]/10;
+      prices[i] -= off;
+      console.log(`After offer value at index ${idx} is ${prices[i]}`);
+      idx++;
+      
+    }
+
+    // Methods of Array
+    // 1.Push()->add element at the end e.g
+    let arr = [1, 2, 3, 4];
+    arr.push(5);
+    console.log(arr);
+              // output(arr=[ 1, 2, 3, 4, 5])
+    // 2.Pop()->Delete element from end & Return e.g
+    let ret = arr.pop();
+    console.log(arr);
+    console.log(`deleted : ${ret}`); 
+                // output(arr=[ 1, 2, 3, 4])
+    // 3.toString()->convert an array into string  e.g
+    console.log(arr.toString());
+                 // output='1, 2, 3, 4'
+    // 4.unShift()->add element at Start e.g
+    arr.unshift(0);
+    console.log(arr);
+                  // output(arr=[0, 1, 2, 3, 4])
+    // 5.Shift()->delete element from Start & Return e.g
+    let rt = arr.shift();
+    console.log(arr);
+    console.log(`deleted : ${rt}`);
+    
+                 // output(arr=[1, 2, 3, 4])
+    // 6.concat()->join two or more arrays & Return result e.g
+    let arr1 = [89, 78, 9, 7];
+    let array = arr.concat(arr1);
+    console.log(array);
+                // output(arr=[1, 2, 3, 4, 89, 78, 9, 7])
+    // 7.splice(startIdx, delCount, newE1,E2)->delete element or change or replace element e.g
+    array.splice(3, 1, 234);
+    console.log(array);
+          // output(arr=[1, 2, 3, 234, 89, 78, 9, 7])
+
+    
+    
+    
+    
+
+    
+  </script>
+</body>
+</html>
