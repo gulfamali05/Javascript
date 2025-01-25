@@ -74,3 +74,40 @@ let newArray = num.map((val)=>{
   return(val**=2);
 });
 console.log(newArray);
+
+
+/*Filter
+syntax:
+arr.filter(call back function);
+*/
+
+let arr3 = [90, 45, 67, 99, 98, 94, 999];
+
+const result = arr3.filter((val)=>{
+  return val > 90;
+});
+console.log(result);
+
+
+let n = prompt("Enter a number");
+let arrNum = [ ];
+for(let i = 1; i <= n; i++){
+  arrNum.push(i);
+};
+// arrNum.forEach((val)=>{
+//   console.log(val);
+  
+// })
+
+//Sum of Numbers
+const sum = arrNum.reduce((res, curr)=>{
+  return res + curr;
+});
+console.log('Sum =' + sum);
+// Multiplication of Numbers
+const mul = arrNum.reduce((res, curr)=>{
+  return res * curr;
+});
+console.log('Multiplication =' + mul);
+
+
